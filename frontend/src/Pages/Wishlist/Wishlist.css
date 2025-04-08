@@ -1,0 +1,35 @@
+.wishlist-page {
+    padding: 30px;
+  }
+  
+  .wishlist-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .wishlist-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 6px;
+    width: 250px;
+    background-color: #fff;
+  }
+  
+  .wishlist-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .wishlist-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .wishlist-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,125 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+/* Light mode styles */
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.nav.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.nav.dark {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-bottom: 1px solid #333;
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  background-color: transparent;
+  border: 1px solid #888;
+  color: inherit;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+body.dark .dark-mode-toggle {
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+}
+
+body.light .dark-mode-toggle {
+  border-color: #000000;
+  color: #000000;
+}
+
+/* Links */
+body.dark a {
+  color: #f0f0f0;
+}
+
+/* Buttons */
+body.dark button {
+  background-color: #333;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+body.light button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ccc;
+}
+
+/* Wishlist and product cards */
+body.dark .wishlist-item,
+body.dark .product-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+body.light .wishlist-item,
+body.light .product-card {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+/* Headings and text */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark p,
+body.dark span {
+  color: #f0f0f0;
+}
+
+body.light h1,
+body.light h2,
+body.light h3,
+body.light h4,
+body.light h5,
+body.light h6,
+body.light p,
+body.light span {
+  color: #000000;
+}
+
+/* Footer and sections */
+body.dark .footer,
+body.dark .newsletter,
+body.dark .new-collections {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+body.light .footer,
+body.light .newsletter,
+body.light .new-collections {
+  background-color: #f9f9f9;
+  color: #000000;
+}
